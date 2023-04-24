@@ -1,4 +1,4 @@
-module central-sbom
+module github.com/nscuro/cdx-central
 
 go 1.20
 

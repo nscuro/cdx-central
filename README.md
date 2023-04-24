@@ -12,6 +12,8 @@ go install -v github.com/nscuro/cdx-central@latest
 
 ```
 Usage of cdx-central:
+  -concurrency int
+        How many artifacts to process concurrently (default 5)
   -min-components int
         Minimum number of components in an SBOM (default 10)
   -output string
